@@ -14,3 +14,5 @@ export const internalServerError = (res: express.Response, err: Error) =>
 
 export const notFound = (res: express.Response) => res.sendStatus(404);
 export const ok = (res: express.Response) => res.sendStatus(200);
+export const unauthorized = (res: express.Response) => res.sendStatus(401);
+
